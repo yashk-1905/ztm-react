@@ -1,0 +1,6 @@
+11 become great react developer
+
+  >>>1) Decide on Components
+  >>>2) Decide the state and where it lives 
+  >>>3) what changes when state changes?
+  ---when the state changes then what part of the virtual DOM changes or is rendered?

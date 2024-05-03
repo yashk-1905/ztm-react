@@ -1,0 +1,25 @@
+  6 the birth of reactjs
+
+  --> first of all there was js 
+  then came jquery and it made the dom manipulation little easier 
+
+  now with the coming of jquery people started writing big big websites 
+
+  and as the code enlarged their came apps like backbone that managed the js files
+
+  and with coming of AJAX too it eventually gave birth to the idea of 
+
+  spa ===> 
+
+  now the focus was increased on js rather than html it was sent once to the client 
+  and then everytime their was change only js used to update 
+
+  after which came angular js which organised things by dividing everything in an mvc architecture 
+
+  but with the increase in the size of apps it data was flowing everywhere 
+
+  when clicked on the bottom button one reaches at the top then bottom then left then right then so on and so on 
+
+  now this created problem as it was harder to find the bugs in angular
+
+  now programming is all about managing the way architecture of your app is how the data is flowing and facebook with the increase in number of people and users working on it's app couldn't just handle it all with the old one so it needed a good architecture which in turn gave birth to reactjs

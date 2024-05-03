@@ -1,0 +1,20 @@
+9 unidirectional data flow
+
+  1) Don't touch the DOM i will do it 
+
+  2) Building websites like lego blocks 
+
+  entire component  = function(state, component){}
+
+  3) Uni directional flow aka virtual dom( tree like )
+
+  now this unidirectional flow basically means that if at any point of time we need any change on our webpage we need to change our state
+  or
+  our webpage is gonna change only when our state will change 
+
+  data can never move up
+  
+  why???????
+    -- well with this restriction it becomes easy to debug our code 
+    -- if their is any problem with the sign up we are directly gonna look for it in the parent and see where the data creating problem is being flown in the sogm up children from the parent itself
+

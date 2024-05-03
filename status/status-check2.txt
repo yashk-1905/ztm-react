@@ -1,0 +1,35 @@
+  7 Declarative v/s Imperative
+
+  now what the facebook did?
+
+  1) Don't touch the DOM i will do it 
+
+Imperative
+  earlier the work was done on the DOM  and this type of programming is called as Imperative where you directly change the app
+
+  with imperative it gets difficult to get the relations between events and where they are heading to after triggereing
+
+DOM manipulation
+  DOM manipulation needed to perform two intensive operations
+  one repaint ==> change an element then add it on to a page => then 
+  two refloat which is calculate the layout of the page and move things around it 
+
+  now changing the dom is an expensive operation
+
+Declarative 
+  so now the react said ok dear don't touch the DOM i will take care of that 
+  you just declare to me or tell me how the page should look like then
+  i will find the best way to use the DOM and make the page same as your declaration
+
+  ok so now user will tell the react robot that i want the page like so and so
+  now react will make a large blueprint of that(virtual DOM) 
+
+{in imperative we used to tell each step that if this happens then do this and if then this happens then do this and if that happens in that case do that 
+
+but over here in the Declarative we tell that this is the state of our app and react automatically just does it using it's react robot }
+
+  now all the different states are accounted for in one place in one big js object(virtual DOM) that tells how should i app look like 
+
+  that's where the name of re-act came from 
+
+  i am just gonna see whatever is your virtual DOM's state and then will re act it on the actual DOM 

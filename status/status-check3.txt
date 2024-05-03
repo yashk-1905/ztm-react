@@ -1,0 +1,45 @@
+8 Component architecture
+
+  1) Don't touch the DOM i will do it 
+
+  2) Building websites like lego blocks 
+
+  u create smaller components and then those smaller components within components to make the bigger components 
+
+  now these components are reusable 
+
+  BUT what the hell are components?
+    they are just js functions
+
+    let's say we have this state ===> 
+    "STATE"
+    let state = {
+      user: 'Yash Kothari',
+      isLoggedIn: 'true',
+      friends: {povel, sarah, suzan}
+    }
+            |
+            |
+            |
+            <Welcome name = {state.user}/>
+                |
+                |
+                |
+              "Component"
+              
+              function Welcome(props){
+                return <h1> hello, {props.name} </h1>;
+              }
+
+                OR
+
+              class Welcome extends React.component {
+                render(){
+                  return <h1> hello, {props.name} </h1>;
+                }
+              }
+              |
+              |
+              |
+              now based on the state and the component we have an entire component that we can add to our page and maybe also reuse over wherever needed as will be told in the way told in line 24
+              

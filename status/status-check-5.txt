@@ -1,0 +1,9 @@
+10 UI library
+
+  1) Don't touch the DOM i will do it 
+  2) Building websites like lego blocks 
+  3) Uni directional flow aka virtual dom( tree like )
+  4) UI is react's department rest is up to you
+
+  - react focuses on view part only
+  - with this it gets ability to render our virtual DOM anywhere on mobile, web, desktop, vr box or even terminal
